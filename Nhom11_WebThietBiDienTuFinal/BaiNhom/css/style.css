@@ -1,0 +1,446 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 50%;
+    margin:0  10px;
+}
+.mota_sanpham{
+    font-size: 20px;
+}
+input.them_giohang{
+    border: none;
+    background: #FED32C;
+    color: #000;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+    border: 1px solid red;
+    height:44px;
+    width:100%;
+    background-color: #FED32C;
+    text-align: center;
+}
+/* -------------Menu--------------*/
+.menu{
+    border: 1px solid ;
+    
+    width: 100%;
+    background-color: #FED32C;
+}
+.menu > ul.menu_chung{
+    display: flex;
+    float:left;
+    justify-content: space-between ;
+    align-content: center;
+    width: 40%;
+    margin-left: 3%
+
+}
+
+.menu ul.menu_timkiem{
+    display: flex;
+    float: left;
+    padding-inline-start: 10px;
+    width: 25%;
+    
+
+}
+.menu ul.menu_timkiem form{
+    padding: 8px 6px;
+}
+
+
+.menu > ul > li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    
+    
+    
+}
+.menu > ul > li > a{
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+.menu > ul > li{
+    padding: 8px 6px;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.menu > ul > li:hover{
+    background-color: white;
+    
+}  
+.menu ul.menu_tk {
+    display: flex;
+    float:inline-end;
+    width: 300px;
+    padding-inline-start: 0;
+    
+} 
+
+/*--------------------------Main--------------------------*/
+#main {
+    min-height: 700px;
+    height: auto;
+    width: 100%;
+    
+}
+.side-bar{
+    
+    height: 1500;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.side-bar h2{
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FED32C;
+    padding: 8px 6px;
+    margin-top: 0;
+    
+}
+.side-bar h2 i{
+    margin-right: 6px;
+}
+.side-bar ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+.side-bar ul li{
+    list-style-type: none;
+        
+}
+.menu > ul > li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    
+    
+}
+.side-bar >ul >li >a {
+    padding-left:30%;
+    padding-right: 30%;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+.side-bar > ul > li{
+    padding: 8px ;
+    transition: all 0.3s ease;
+    text-align: center;
+    
+    
+}
+.side-bar > ul > li:hover{
+    background-color: #FED32C;
+    
+}   
+.main-content{
+    
+    height:auto;
+    width: 75%;
+    margin-top: 5px;
+    margin-left: 10px;   
+    float: left;
+}
+.product-gallery-one-content-product{
+    
+    justify-content: space-between;
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    border-left: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    
+}
+.product-gallery-one-content-product-item {
+    
+    cursor: pointer;
+    padding: 50px 12px 12px;
+    border: 1px solid rgb(235, 233, 233);
+    margin-bottom: 10px;
+}
+.product-gallery-one-content-product-item-img {
+   
+    height: 215px;
+    line-height: 215px;
+    text-align: center;
+    position: relative;
+    margin: 10px auto;
+
+}
+.product-gallery-one-content-product-item img{
+    width: 80%;
+    
+}
+
+.product-gallery-one-content-product-item-text
+{
+    padding-top: 20px;
+    
+}
+.product-gallery-one-content-product-item-text li
+{
+    list-style-type: none;
+    margin-top: 6px;
+}
+.product-gallery-one-content-product-item-text li a{
+text-decoration: none;}
+.product-gallery-one-content-product-item-text li:first-child a {
+    
+    color: black;
+    
+}
+.product-gallery-one-content-product-item-text li:first-child a:hover{
+    color: #73B1DD;
+}
+.product-gallery-one-content-product-item-text li:nth-child(2) a{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-gallery-one-content-product-item-text li:nth-child(2) a sup{
+    text-decoration:underline;
+    margin-left: 2px;
+}
+.product-gallery-one-content-product-item-text:last-child a{
+    color: #d1d1d1;
+}
+.list_trang{
+    text-align: center;
+    margin-left: 40%;
+}
+.list_trang li{
+    float: left;
+    list-style: none;
+    
+    margin: 5px;
+    border: 1px solid #d1d1d1;
+}
+.list_trang li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 13px;
+    color: #000;
+    display: block;
+}
+
+
+.clear{
+    clear:both;
+}
+/*----------------Footer----------------*/
+.footer{
+    display: block;
+    height: 150px;
+    width: 100%;
+    background-color: #FED32C;
+}
+p.footer_copyright{
+    padding-top: 20px;
+    text-align: center;
+    color: #000;
+    
+}
+/*-------------------Css i trong giỏ hàng-----------------------*/
+i.fa-solid.fa-plus{
+    color: #000 ;
+}
+i.fa-solid.fa-minus {
+    color: #000 ;
+}
+i.fa-solid.fa-plus:hover{
+    color: #a71818 ;
+}
+i.fa-solid.fa-minus:hover{
+    color: #a71818 ;
+}
+/* ----------------------submenu------------------ */
+.menu > ul > li {
+    position: relative;
+    list-style-type: none;  
+    font-weight: bold;
+}
+.submenutaikhoan ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.submenutaikhoan{
+    position: absolute;
+    background-color: #fbfafa;
+    width: 300px;
+    height: auto;
+    right: 0;
+    top: 100%;
+    padding-top: 5px;
+    display: none;
+}
+ul li:hover .submenutaikhoan{
+    display: block;
+}
+
+.submenutaikhoan ul li{
+    padding: 6px 0;
+    transition: all 0.3s ease;
+    list-style-type: none;
+    text-align: left;
+    font-weight: normal;
+}
+.submenutaikhoan ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.submenutaikhoan ul li:hover{
+    font-weight: bold ;
+}
+/* ----------------------Progress Bar Gio hang-------------------*/
+/* jQuery Demo */
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+  }
+  
+  /* Responsive Arrow Progress Bar */
+  
+  
+  
+  .arrow-steps .step {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    cursor: default;
+    margin: 0 1px 0 0;
+    padding: 10px 0px 10px 0px;
+    width: 15%;
+    float: left;
+    position: relative;
+    background-color: #ddd;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .arrow-steps .step a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .arrow-steps .step:after,
+  .arrow-steps .step:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid #ddd;
+    z-index: 2;
+  }
+  
+  .arrow-steps .step:before {
+    right: auto;
+    left: 0;
+    border-left: 17px solid #fff;
+    z-index: 0;
+  }
+  
+  .arrow-steps .step:first-child:before {
+    border: none;
+  }
+  
+  
+  
+  .arrow-steps .step:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  
+  .arrow-steps .step:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  .arrow-steps .step span {
+    position: relative;
+  }
+  
+  *.arrow-steps .step.done span:before {
+    opacity: 1;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -10px;
+    font-size: 11px;
+    line-height: 21px;
+  }
+  
+  .arrow-steps .step.current {
+    color: #fff;
+    background-color: #5599e5;
+  }
+  
+  .arrow-steps .step.current a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .arrow-steps .step.current:after {
+    border-left: 17px solid #5599e5;
+  }
+  
+  .arrow-steps .step.done {
+    color: #173352;
+    background-color: #2f69aa;
+  }
+  
+  .arrow-steps .step.done a {
+    color: #173352;
+    text-decoration: none;
+  }
+  
+  .arrow-steps .step.done:after {
+    border-left: 17px solid #2f69aa;
+  }

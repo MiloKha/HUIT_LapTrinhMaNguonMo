@@ -1,0 +1,78 @@
+ul.list-admincp-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #FED32C;
+}
+ul.list-admincp-menu li{
+    float: left;
+    margin: 5px;
+    list-style-type: none;
+    
+}
+ul.list-admincp-menu li a{
+    text-decoration: none;
+}
+.clear{
+    clear:both;
+}
+h3.tittle_admin{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    
+}.wrapper {
+    border: 0px solid #000;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+.table_lietke table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center; 
+}
+.table_lietke th{
+    
+    background-color: aquamarine;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    
+    
+}
+.table_lietke td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    
+}
+.main{
+    min-height: 600px;
+}
+.header{
+    min-height: 20px;
+}
+.list-admincp-menu{
+    min-height: 30px;
+}
+.footer{
+    min-height: 100px;
+    background-color: #FED32C;
+}
+.list_trang{
+    text-align: center;
+    margin-left: 40%;
+}
+.list_trang li{
+    float: left;
+    list-style: none;
+    
+    margin: 5px;
+    border: 1px solid #d1d1d1;
+}
+.list_trang li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 13px;
+    color: #000;
+    display: block;
+}

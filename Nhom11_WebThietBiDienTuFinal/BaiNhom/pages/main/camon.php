@@ -1,0 +1,1 @@
+<p>Cảm ơn bạn đã mua hàng chúng tôi sẽ thông báo đến bạn qua email sớm nhất có thể</p>
